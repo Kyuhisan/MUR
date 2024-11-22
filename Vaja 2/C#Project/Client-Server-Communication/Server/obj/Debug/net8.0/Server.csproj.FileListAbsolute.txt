@@ -1,0 +1,14 @@
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 2\C#Project\Client-Server-Communication\Server\bin\Debug\net8.0\Server.exe
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 2\C#Project\Client-Server-Communication\Server\bin\Debug\net8.0\Server.deps.json
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 2\C#Project\Client-Server-Communication\Server\bin\Debug\net8.0\Server.runtimeconfig.json
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 2\C#Project\Client-Server-Communication\Server\bin\Debug\net8.0\Server.dll
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 2\C#Project\Client-Server-Communication\Server\bin\Debug\net8.0\Server.pdb
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 2\C#Project\Client-Server-Communication\Server\obj\Debug\net8.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 2\C#Project\Client-Server-Communication\Server\obj\Debug\net8.0\Server.AssemblyInfoInputs.cache
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 2\C#Project\Client-Server-Communication\Server\obj\Debug\net8.0\Server.AssemblyInfo.cs
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 2\C#Project\Client-Server-Communication\Server\obj\Debug\net8.0\Server.csproj.CoreCompileInputs.cache
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 2\C#Project\Client-Server-Communication\Server\obj\Debug\net8.0\Server.dll
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 2\C#Project\Client-Server-Communication\Server\obj\Debug\net8.0\refint\Server.dll
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 2\C#Project\Client-Server-Communication\Server\obj\Debug\net8.0\Server.pdb
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 2\C#Project\Client-Server-Communication\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 2\C#Project\Client-Server-Communication\Server\obj\Debug\net8.0\ref\Server.dll

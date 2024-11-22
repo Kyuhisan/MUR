@@ -1,0 +1,14 @@
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 3\ChatApp\ChatServer\bin\Debug\net8.0\ChatServer.exe
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 3\ChatApp\ChatServer\bin\Debug\net8.0\ChatServer.deps.json
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 3\ChatApp\ChatServer\bin\Debug\net8.0\ChatServer.runtimeconfig.json
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 3\ChatApp\ChatServer\bin\Debug\net8.0\ChatServer.dll
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 3\ChatApp\ChatServer\bin\Debug\net8.0\ChatServer.pdb
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 3\ChatApp\ChatServer\obj\Debug\net8.0\ChatServer.GeneratedMSBuildEditorConfig.editorconfig
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 3\ChatApp\ChatServer\obj\Debug\net8.0\ChatServer.AssemblyInfoInputs.cache
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 3\ChatApp\ChatServer\obj\Debug\net8.0\ChatServer.AssemblyInfo.cs
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 3\ChatApp\ChatServer\obj\Debug\net8.0\ChatServer.csproj.CoreCompileInputs.cache
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 3\ChatApp\ChatServer\obj\Debug\net8.0\ChatServer.dll
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 3\ChatApp\ChatServer\obj\Debug\net8.0\refint\ChatServer.dll
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 3\ChatApp\ChatServer\obj\Debug\net8.0\ChatServer.pdb
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 3\ChatApp\ChatServer\obj\Debug\net8.0\ChatServer.genruntimeconfig.cache
+E:\2 - Letnik Vaje\Vaje - Mrežno Usmerjeno Računanje\Vaja 3\ChatApp\ChatServer\obj\Debug\net8.0\ref\ChatServer.dll
