@@ -33,7 +33,7 @@ namespace ChatApp
             try
             {
                 string message = MessageTextBox.Text.Trim();
-                byte[] send = Encoding.UTF8.GetBytes((message));
+                byte[] send = Encoding.UTF8.GetBytes(Encrypt(message)); // ŠIFRIRANJE
                 stream.Write(send, 0, send.Length);
             }
             catch (Exception ex)
@@ -53,7 +53,7 @@ namespace ChatApp
                     if (length == 0) break;
 
                     string message = Encoding.UTF8.GetString(receive, 0, length);
-                    Invoke((MethodInvoker)(() => ChatTextBox.AppendText((message) + Environment.NewLine)));
+                    Invoke((MethodInvoker)(() => ChatTextBox.AppendText(Decrypt(message) + Environment.NewLine)));
                 }
             }
             catch (Exception ex)

@@ -6,3 +6,11 @@ C:\Users\Kyuhi\Downloads\Server\bin\Debug\Server.pdb
 C:\Users\Kyuhi\Downloads\Server\obj\Debug\Server.exe
 C:\Users\Kyuhi\Downloads\Server\obj\Debug\Server.pdb
 C:\Users\Kyuhi\Downloads\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\Kyuhi\Downloads\New folder (2)\MUR\Vaja 3\Server\bin\Debug\Server.exe.config
+C:\Users\Kyuhi\Downloads\New folder (2)\MUR\Vaja 3\Server\bin\Debug\Server.exe
+C:\Users\Kyuhi\Downloads\New folder (2)\MUR\Vaja 3\Server\bin\Debug\Server.pdb
+C:\Users\Kyuhi\Downloads\New folder (2)\MUR\Vaja 3\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\Kyuhi\Downloads\New folder (2)\MUR\Vaja 3\Server\obj\Debug\Server.csproj.SuggestedBindingRedirects.cache
+C:\Users\Kyuhi\Downloads\New folder (2)\MUR\Vaja 3\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\Kyuhi\Downloads\New folder (2)\MUR\Vaja 3\Server\obj\Debug\Server.exe
+C:\Users\Kyuhi\Downloads\New folder (2)\MUR\Vaja 3\Server\obj\Debug\Server.pdb

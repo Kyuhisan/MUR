@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Security.Cryptography;
@@ -37,22 +38,30 @@ namespace Server
             }
         }
 
-        static void Broadcast(string message)
+        static void Broadcast(string message, bool isGameMessage = false)
         {
-            Console.WriteLine(message);
+            if (isGameMessage)
+            {
+                Console.WriteLine("[GAME] " + message);
+            }
+            else
+            {
+                Console.WriteLine(message);
+            }
 
             foreach (var client in clients.Values)
             {
                 try
                 {
                     NetworkStream stream = client.GetStream();
-
-                    byte[] buffer = Encoding.UTF8.GetBytes((message));
+                    string finalMessage = isGameMessage ? "[GAME]" + message : message;
+                    byte[] buffer = Encoding.UTF8.GetBytes(Encrypt(finalMessage));
                     stream.Write(buffer, 0, buffer.Length);
                 }
                 catch { }
             }
         }
+
         #endregion
 
         static void Main(string[] args)
@@ -103,7 +112,7 @@ namespace Server
             while (true)
             {
                 // PROTOKOL
-                string message = Receive(stream);
+                string message = Decrypt(Receive(stream)); // DEŠIFRIRANJE
                 string body;
                 string head;
 
@@ -122,7 +131,21 @@ namespace Server
                 switch (head)
                 {
                     case "B": // BROADCAST
-                        Broadcast(username + " pravi: " + (body));
+                        Broadcast(username + " pravi: " + body);
+                        break;
+                    case "GAMESTART": // START
+                        StartGame();
+                        break;
+                    case "GAMESTOP": // STOP
+                        StopGame();
+                        break;
+                    case "GUESS": // GUESS
+                        if (!string.IsNullOrEmpty(body) && body.Length == 1) {
+                            char guess = char.ToUpper(body[0]);
+                            ProcessGuess(username, guess);
+                        } else {
+                            SendToClient(username, "Neveljaven ugib. Vnesite eno črko.");
+                        }
                         break;
                     default:
                         Broadcast("Protokolna koda ni prepoznana.");
@@ -158,6 +181,90 @@ namespace Server
                 return Encoding.UTF8.GetString(decryptedBytes);
             }
         }
+        #endregion
+
+        #region Igra
+        static string currentWord = "";
+        static HashSet<char> guessedLetters = new HashSet<char>();
+        static Dictionary<string, int> scores = new Dictionary<string, int>();
+        static bool gameActive = false;
+        static Random random = new Random();
+        static List<string> words = new List<string> { "AVTO", "MIZA", "IGRA", "TEST" };
+
+        static void StartGame()
+        {
+            if (!gameActive)
+            {
+                currentWord = words[random.Next(words.Count)];
+                guessedLetters.Clear();
+                gameActive = true;
+                Broadcast("Igra ugibanja besed je začela! Beseda: " + GetMaskedWord());
+            }
+        }
+
+        static void StopGame()
+        {
+            if (gameActive)
+            {
+                gameActive = false;
+                Broadcast("Igra je ustavljena. Beseda je bila: " + currentWord, isGameMessage: true);
+            }
+        }
+
+        static string GetMaskedWord()
+        {
+            var masked = new StringBuilder();
+            foreach (char c in currentWord)
+            {
+                masked.Append(guessedLetters.Contains(c) ? c : '_');
+            }
+            return masked.ToString();
+        }
+
+        static void ProcessGuess(string username, char guess)
+        {
+            if (!gameActive)
+            {
+                SendToClient(username, "Trenutno ni aktivne igre.");
+                return;
+            }
+
+            if (guessedLetters.Contains(guess))
+            {
+                SendToClient(username, $"Črka '{guess}' je že bila ugibana.");
+                return;
+            }
+
+            guessedLetters.Add(guess);
+
+            if (currentWord.Contains(guess))
+            {
+                Broadcast($"Uporabnik {username} je pravilno ugibal črko '{guess}'! Beseda: " + GetMaskedWord());
+
+                if (currentWord.All(c => guessedLetters.Contains(c)))
+                {
+                    Broadcast($"Uporabnik {username} je zmagal! Beseda je bila: {currentWord}");
+                    if (!scores.ContainsKey(username)) scores[username] = 0;
+                    scores[username]++;
+                    StopGame();
+                }
+            }
+            else
+            {
+                SendToClient(username, $"Črka '{guess}' ni v besedi. Poskusi znova!");
+            }
+        }
+
+        static void SendToClient(string username, string message)
+        {
+            if (clients.ContainsKey(username))
+            {
+                NetworkStream stream = clients[username].GetStream();
+                byte[] buffer = Encoding.UTF8.GetBytes(Encrypt(message));
+                stream.Write(buffer, 0, buffer.Length);
+            }
+        }
+
         #endregion
     }
 }
