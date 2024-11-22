@@ -1,0 +1,10 @@
+C:\Users\Kyuhi\Downloads\ChatApp\bin\Debug\ChatApp.exe.config
+C:\Users\Kyuhi\Downloads\ChatApp\bin\Debug\ChatApp.exe
+C:\Users\Kyuhi\Downloads\ChatApp\bin\Debug\ChatApp.pdb
+C:\Users\Kyuhi\Downloads\ChatApp\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\Kyuhi\Downloads\ChatApp\obj\Debug\Server.csproj.SuggestedBindingRedirects.cache
+C:\Users\Kyuhi\Downloads\ChatApp\obj\Debug\ChatApp.Properties.Resources.resources
+C:\Users\Kyuhi\Downloads\ChatApp\obj\Debug\Server.csproj.GenerateResource.cache
+C:\Users\Kyuhi\Downloads\ChatApp\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\Kyuhi\Downloads\ChatApp\obj\Debug\ChatApp.exe
+C:\Users\Kyuhi\Downloads\ChatApp\obj\Debug\ChatApp.pdb

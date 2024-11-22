@@ -8,19 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\matic\\.nuget\\packages\\": {}
+    "C:\\Users\\Kyuhi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\2 - Letnik Vaje\\Vaje - Mrežno Usmerjeno Računanje\\Vaja 2\\C#Project\\Client-Server-Communication\\Client\\Client.csproj",
+      "projectUniqueName": "C:\\Users\\Kyuhi\\Downloads\\New folder (2)\\MUR\\Vaja 2\\C#Project\\Client-Server-Communication\\Client\\Client.csproj",
       "projectName": "Client",
-      "projectPath": "E:\\2 - Letnik Vaje\\Vaje - Mrežno Usmerjeno Računanje\\Vaja 2\\C#Project\\Client-Server-Communication\\Client\\Client.csproj",
-      "packagesPath": "C:\\Users\\matic\\.nuget\\packages\\",
-      "outputPath": "E:\\2 - Letnik Vaje\\Vaje - Mrežno Usmerjeno Računanje\\Vaja 2\\C#Project\\Client-Server-Communication\\Client\\obj\\",
+      "projectPath": "C:\\Users\\Kyuhi\\Downloads\\New folder (2)\\MUR\\Vaja 2\\C#Project\\Client-Server-Communication\\Client\\Client.csproj",
+      "packagesPath": "C:\\Users\\Kyuhi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kyuhi\\Downloads\\New folder (2)\\MUR\\Vaja 2\\C#Project\\Client-Server-Communication\\Client\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\matic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kyuhi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -40,11 +45,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -56,17 +56,11 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
