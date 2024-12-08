@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kyuhi\\Downloads\\New folder (2)\\MUR\\Vaja 2\\C#Project\\Client-Server-Communication\\Client\\Client.csproj",
+      "projectUniqueName": "C:\\Users\\Kyuhi\\Downloads\\MUR\\MUR\\Vaja 2\\C#Project\\Client-Server-Communication\\Client\\Client.csproj",
       "projectName": "Client",
-      "projectPath": "C:\\Users\\Kyuhi\\Downloads\\New folder (2)\\MUR\\Vaja 2\\C#Project\\Client-Server-Communication\\Client\\Client.csproj",
+      "projectPath": "C:\\Users\\Kyuhi\\Downloads\\MUR\\MUR\\Vaja 2\\C#Project\\Client-Server-Communication\\Client\\Client.csproj",
       "packagesPath": "C:\\Users\\Kyuhi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kyuhi\\Downloads\\New folder (2)\\MUR\\Vaja 2\\C#Project\\Client-Server-Communication\\Client\\obj\\",
+      "outputPath": "C:\\Users\\Kyuhi\\Downloads\\MUR\\MUR\\Vaja 2\\C#Project\\Client-Server-Communication\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

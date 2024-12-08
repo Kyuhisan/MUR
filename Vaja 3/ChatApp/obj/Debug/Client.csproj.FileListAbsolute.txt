@@ -20,3 +20,14 @@ C:\Users\Kyuhi\Downloads\New folder (2)\MUR\Vaja 3\ChatApp\obj\Debug\Client.cspr
 C:\Users\Kyuhi\Downloads\New folder (2)\MUR\Vaja 3\ChatApp\obj\Debug\Client.csproj.CoreCompileInputs.cache
 C:\Users\Kyuhi\Downloads\New folder (2)\MUR\Vaja 3\ChatApp\obj\Debug\ChatApp.exe
 C:\Users\Kyuhi\Downloads\New folder (2)\MUR\Vaja 3\ChatApp\obj\Debug\ChatApp.pdb
+C:\Users\Kyuhi\Downloads\MUR\MUR\Vaja 3\ChatApp\bin\Debug\ChatApp.exe.config
+C:\Users\Kyuhi\Downloads\MUR\MUR\Vaja 3\ChatApp\bin\Debug\ChatApp.exe
+C:\Users\Kyuhi\Downloads\MUR\MUR\Vaja 3\ChatApp\bin\Debug\ChatApp.pdb
+C:\Users\Kyuhi\Downloads\MUR\MUR\Vaja 3\ChatApp\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\Users\Kyuhi\Downloads\MUR\MUR\Vaja 3\ChatApp\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+C:\Users\Kyuhi\Downloads\MUR\MUR\Vaja 3\ChatApp\obj\Debug\ChatApp.Properties.Resources.resources
+C:\Users\Kyuhi\Downloads\MUR\MUR\Vaja 3\ChatApp\obj\Debug\ChatApp.ClientForm.resources
+C:\Users\Kyuhi\Downloads\MUR\MUR\Vaja 3\ChatApp\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Users\Kyuhi\Downloads\MUR\MUR\Vaja 3\ChatApp\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\Kyuhi\Downloads\MUR\MUR\Vaja 3\ChatApp\obj\Debug\ChatApp.exe
+C:\Users\Kyuhi\Downloads\MUR\MUR\Vaja 3\ChatApp\obj\Debug\ChatApp.pdb

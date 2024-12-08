@@ -10,7 +10,17 @@
       "ProjectGuid": "ba8c21e7-dbb0-4218-b777-6f7f80311a68",
       "DisplayName": "Server",
       "ColorIndex": 1
+    },
+    "255c9770-aad1-436a-88b3-9318ac35a485": {
+      "ProjectGuid": "255c9770-aad1-436a-88b3-9318ac35a485",
+      "DisplayName": "SecureFileTransfer",
+      "ColorIndex": 2
+    },
+    "551d3905-0e24-4b28-b269-e0be480dd395": {
+      "ProjectGuid": "551d3905-0e24-4b28-b269-e0be480dd395",
+      "DisplayName": "Combined",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 4
 }
