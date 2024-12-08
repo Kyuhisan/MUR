@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Combined.Properties
+namespace Vaja4.Properties
 {
 
 

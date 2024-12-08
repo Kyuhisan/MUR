@@ -1,0 +1,10 @@
+C:\Users\Kyuhi\Downloads\MUR\Vaja 4 P2P\Vaja4\obj\Debug\Vaja4.csproj.AssemblyReference.cache
+C:\Users\Kyuhi\Downloads\MUR\Vaja 4 P2P\Vaja4\obj\Debug\Vaja4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Kyuhi\Downloads\MUR\Vaja 4 P2P\Vaja4\obj\Debug\Vaja4.Properties.Resources.resources
+C:\Users\Kyuhi\Downloads\MUR\Vaja 4 P2P\Vaja4\obj\Debug\Vaja4.csproj.GenerateResource.cache
+C:\Users\Kyuhi\Downloads\MUR\Vaja 4 P2P\Vaja4\obj\Debug\Vaja4.csproj.CoreCompileInputs.cache
+C:\Users\Kyuhi\Downloads\MUR\Vaja 4 P2P\Vaja4\bin\Debug\Vaja4.exe.config
+C:\Users\Kyuhi\Downloads\MUR\Vaja 4 P2P\Vaja4\bin\Debug\Vaja4.exe
+C:\Users\Kyuhi\Downloads\MUR\Vaja 4 P2P\Vaja4\bin\Debug\Vaja4.pdb
+C:\Users\Kyuhi\Downloads\MUR\Vaja 4 P2P\Vaja4\obj\Debug\Vaja4.exe
+C:\Users\Kyuhi\Downloads\MUR\Vaja 4 P2P\Vaja4\obj\Debug\Vaja4.pdb

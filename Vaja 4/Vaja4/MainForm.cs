@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 
-namespace PeerToPeerApp
+namespace Vaja4
 {
     public partial class MainForm : Form
     {

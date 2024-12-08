@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace PeerToPeerApp
+namespace Vaja4
 {
     partial class MainForm
     {
@@ -32,28 +32,28 @@ namespace PeerToPeerApp
 
             Button startServerButton = new Button { Text = "Start Server", Top = 10, Left = 460 };
             startServerButton.Click += (sender, e) => StartServer(serverIpInput.Text, int.Parse(serverPortInput.Text));
-            
+
             Label clientIpLabel = new Label { Text = "Connect IP:", Top = 50, Left = 10, Width = 80 };
             TextBox clientIpInput = new TextBox { Top = 50, Left = 90, Width = 150, Text = "127.0.0.1" };
             clientIpInput.Name = "ClientIPInput";
-            
+
             Label clientPortLabel = new Label { Text = "Connect Port:", Top = 50, Left = 260, Width = 80 };
             TextBox clientPortInput = new TextBox { Top = 50, Left = 340, Width = 100, Text = "25252" };
             clientPortInput.Name = "ClientPortInput";
-            
+
             Button connectButton = new Button { Text = "Connect", Top = 50, Left = 460 };
             connectButton.Click += (sender, e) => StartClient(clientIpInput.Text, int.Parse(clientPortInput.Text));
-            
+
             Label instanceNameLabel = new Label { Text = "Instance Name:", Top = 90, Left = 10, Width = 100 };
             TextBox instanceNameInput = new TextBox { Top = 90, Left = 120, Width = 150, Text = "Instance" };
             instanceNameInput.Name = "InstanceNameInput";
-            
+
             RichTextBox messagesBox = new RichTextBox { Top = 130, Left = 10, Width = 760, Height = 350, ReadOnly = true };
             messagesBox.Name = "MessagesBox";
-            
+
             Button sendFileButton = new Button { Text = "Send File", Top = 540, Left = 10 };
             sendFileButton.Click += SendFile;
-            
+
             ProgressBar progressBar = new ProgressBar { Top = 540, Left = 120, Width = 550, Height = 20 };
             progressBar.Name = "ProgressBar";
 
