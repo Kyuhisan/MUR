@@ -8,3 +8,4 @@ C:\Users\Kyuhi\Downloads\MUR\MUR\Vaja 4\Combined\obj\Debug\Combined.pdb
 C:\Users\Kyuhi\Downloads\MUR\MUR\Vaja 4\Combined\bin\Debug\Combined.exe.config
 C:\Users\Kyuhi\Downloads\MUR\MUR\Vaja 4\Combined\bin\Debug\Combined.exe
 C:\Users\Kyuhi\Downloads\MUR\MUR\Vaja 4\Combined\bin\Debug\Combined.pdb
+C:\Users\Kyuhi\Downloads\MUR\MUR\Vaja 4\Combined\obj\Debug\PeerToPeerApp.csproj.AssemblyReference.cache
